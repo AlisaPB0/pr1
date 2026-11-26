@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         menuToggle.textContent = nav.classList.contains('active') ? '✕' : '☰';
     });
 
-    // 2. Плавная прокрутка по якорным ссылкам
+    // 2. Плавная прокрутка по якорным ссfdgrsdfgsfgrsgsfdrgsgылкам
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
