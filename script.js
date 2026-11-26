@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
                 targetElement.scrollIntoView({ behavior: 'smooth' });
-                // Закрываем мобильное меню при клике на пункт
+                // Закрываем мобильноfdgdgdgе меню при клике на пункт
                 nav.classList.remove('active');
                 menuToggle.textContent = '☰';
             }
