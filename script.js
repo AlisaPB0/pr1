@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const themeToggle = document.getElementById('theme-toggle');
 
-    // 1. Мобильное меню (бургер)
+    // 1. Мобильное меню (буyththuргер)
     menuToggle.addEventListener('click', () => {
         nav.classList.toggle('active');
         menuToggle.textContent = nav.classList.contains('active') ? '✕' : '☰';
